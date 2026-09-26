@@ -1,0 +1,11 @@
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.cindent = true
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+
+-- This is key: tell Neovim how to handle braces
+vim.opt.cinkeys = "0{,0},0),:,0#,!^F,o,O,e"
+vim.opt.cinoptions = ">s" -- This controls brace indentation
